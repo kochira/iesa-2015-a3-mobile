@@ -40,6 +40,7 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		BBA448A8494247CABCFB3E3F /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E0027973321E408F9A1B44E5 /* CDVSplashScreen.m */; };
+		8D2C7E257FCE45A1B39672F2 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E2E73A78C54507A5AA432F /* CDVDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloWorld/config.xml"; sourceTree = "<group>"; };
 		E0027973321E408F9A1B44E5 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		98EB1D10CA754FD696A2EF5E /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		82E2E73A78C54507A5AA432F /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		25E63E757CEF40F28B508EEE /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +210,8 @@
 			children = (
 				E0027973321E408F9A1B44E5 /* CDVSplashScreen.m */,
 				98EB1D10CA754FD696A2EF5E /* CDVSplashScreen.h */,
+				82E2E73A78C54507A5AA432F /* CDVDevice.m */,
+				25E63E757CEF40F28B508EEE /* CDVDevice.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -392,6 +397,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				BBA448A8494247CABCFB3E3F /* CDVSplashScreen.m in Sources */,
+				8D2C7E257FCE45A1B39672F2 /* CDVDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,9 @@
         <param name="ios-package" value="CDVSplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
     <splash height="480" src="www/img/Default-568h@2x~iphone.png" width="320" />
     <splash height="1136" src="www/img/Default-568h@2x~iphone.png" width="640" />
     <name>HelloWorld</name>

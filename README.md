@@ -17,4 +17,11 @@
 	> la taille width -> height n'était pas la bonne maintenant l'image se charge correctement :) 
 
 
+{exp-06}
+
+- Pas réussi a réaliser l'exercice
+
+	> essentiellement a cause du vanilla js
+
+
 
