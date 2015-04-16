@@ -34,6 +34,19 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+        var element = document.getElementById('deviceProperties');
+        element.innerHTML = '<ul data-role="listview" id="list">'
+            + '<li data-icon="arrow-1">Name: ' + device.name + '</li>'
+            + '<li data-icon="arrow-r">Model: ' + device.model + '</li>'
+            + '<li data-icon="arrow-r">Cordova: ' + device.cordova + '</li>'
+            + '<li data-icon="arrow-1">Platform: ' + device.platform + '</li>'
+            + '<li data-icon="arrow-r">UUID: ' + device.uuid + '</li>'
+            + '<li data-icon="arrow-1">Version: ' + device.version + '</li>'
+
+            + '</ul>'
+        ;
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -43,10 +56,6 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
-        
-        document.getElementById("test").appendChild( (String) id);
-
         
         console.log('Received Event: ' + id);
     }
