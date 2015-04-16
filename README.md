@@ -23,5 +23,8 @@
 
 	> essentiellement a cause du vanilla js
 
+	changelog 16/04
+		-> Ok pr l'exo 06
 
 
+TIPS en cas de pb affichage clavier par ex utiliser reset content dans ios sumulator
